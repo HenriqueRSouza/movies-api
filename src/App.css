@@ -1,38 +1,43 @@
-.App {
-  text-align: center;
+.navbar{
+    display: flex;
+    height: 70px;
+    width: 100%;
+    
+    background-color: black;
+    
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    color: #fafafa;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    position: fixed;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.text{
+    display: flex;
+    width: 100%;
+
+    text-align: center;
+    align-items: center;
+
+    margin: auto;
+    justify-content: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.text h1{
+    font-size: clamp(1.3rem, 2.5vw, 2.0rem);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+.input{
+    border-radius: 30px;
+    margin-left: 30px;
 
-.App-link {
-  color: #61dafb;
-}
+    text-align: center;
+    padding: 5px 5px 5px 5px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    width: clamp(45%, 10vw, 50%);
 }

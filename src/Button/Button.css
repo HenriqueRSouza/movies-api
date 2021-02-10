@@ -1,0 +1,63 @@
+:root{
+    --primary: rgb(24, 128, 24);
+    --green: rgb(34, 161, 34);
+    --white: white;
+    --inColor: #fafafa;
+    --black: black;
+}
+.btn{
+    padding: 8px 10px;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+/*Style Button*/
+.btn--primary{
+    padding: 15px 30px;
+
+    background: var(--primary);
+    color: var(--inColor);
+    
+    border: 2px solid var(--inColor);
+    border-radius: 20px;
+
+    margin-top: 20px;
+}
+
+.btn--outline{
+    background-color: transparent;
+    color: #fafafa;
+    padding: 8px 10px;
+    border: 1px solid var(--primary);
+}
+
+/*Sizes button*/
+.btn--medium{
+    padding: 8px 10px;
+    font-size: 16px;
+}
+
+.btn--large{
+    padding: 8px 20px;
+    font-size: 20px;
+}
+.btn--circle{
+    padding: 8px 10px;
+    font-size: 16px;
+    border-radius: 20px;
+}
+/* Transition */
+.btn--medium:hover,
+.btn--large:hover,
+.btn--outline:hover,
+.btn--circle:hover{
+    background: var(--green);
+    color: var(--inColor);
+
+    transform: 250ms;
+    transition: all 0.3 ease-out;
+}
+ 
+  
